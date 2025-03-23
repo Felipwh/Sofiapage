@@ -1,0 +1,55 @@
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.Flowers__love {
+    position: absolute;
+    top: -54px; /* Ajusta la altura exacta */
+    background-color: rgba(250, 226, 191, 0.8);
+    left: 92px;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    color: #5a3e1b;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.love-gif {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Efecto al pasar el mouse */
+.Flowers__love:hover {
+    background-color: #f8cba6;
+    transform: scale(1.05);
+}
+
+body {
+    background-color: #FCE5B1; /* Color similar al fondo del GIF */
+}
+
+.btn-love {
+    position: absolute;
+    bottom: -25px; /* Ajusta este valor si es necesario */
+    left: 129px;
+    transform: translateX(-129);
+    background-color: #ff6961;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn-love:hover{
+    background-color: #f83c3c;
+    transform: scale(1.05);
+}
